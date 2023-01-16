@@ -24,11 +24,12 @@
 input{
     grid-column: span 5;
     height: 15vh;
-    width: 14.5vw;
+    /* width: 22vw; */
+    width:  100% !important;
     background-color: rgb(110, 178, 223);
     border: 5px solid rgb(248, 248, 248);
     border-radius: 20px;
-    color: rgb(141, 32, 32);
+    color: rgb(255, 255, 255);
     text-align: end;
     margin: 40px 0px 30px 0px;
     padding: 20px;
@@ -37,7 +38,7 @@ input{
 button{
     background-color: rgb(16, 16, 201);
     color: white;
-    border: 2px solid red;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 30%;
     width: px;
     cursor: pointer;
@@ -49,6 +50,7 @@ button{
 button:hover{
     background-color: white;
     color: blue;
+    border: 2px solid blue;
 }
 .del{
     width: 115px;

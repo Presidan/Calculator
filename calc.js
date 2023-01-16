@@ -18,3 +18,12 @@ function clr(){
 function del(){
     result.value=result.value.slice(0,-1)
 }
+function sin(){
+    result.value=Math.sin(result.value)
+}
+function cos(){
+    result.value=Math.cos(result.value)
+}
+function tan(){
+    result.value=Math.tan(result.value)
+}
